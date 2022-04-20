@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Musclepedia.v2</string>
+    <string name="app_name">Musclepedia</string>
     <string-array name="muscles_array">
         <item>Abdominals</item>
         <item>Biceps</item>
