@@ -23,7 +23,7 @@ public class ActivityAbdominals extends AppCompatActivity {
         nazov.setText("Abdominals");
         cvik1.setText("Crunches");
         cvik2.setText("Forearm plank");
-        Toast.makeText(getApplicationContext(), "We are moved to Activity",Toast.LENGTH_LONG).show();
+        Toast.makeText(getApplicationContext(), "We are moved to Abdominals Activity",Toast.LENGTH_LONG).show();
 
     }
 }
