@@ -18,7 +18,8 @@
         android:id="@+id/list"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/toolbar" />
+        android:layout_below="@+id/toolbar"
+        android:background="#E3E7F1"/>
 
     <TextView
         android:id="@+id/emptyView"
@@ -27,7 +28,7 @@
         android:layout_centerInParent="true"
         android:fontFamily="@font/ubuntu"
         android:text="No Results"
-        android:textColor="#A45C40"
+        android:textColor="#52688F"
         android:textSize="20sp"
         android:visibility="gone" />
 </RelativeLayout>
