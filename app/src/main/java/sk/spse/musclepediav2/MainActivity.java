@@ -1,12 +1,14 @@
 package sk.spse.musclepediav2;
 
 import android.content.Intent;
+import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
+import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.TextView;
 
@@ -34,11 +36,18 @@ public class MainActivity extends AppCompatActivity {
     ArrayAdapter<String> mAdapter;
     ListView mListView;
     TextView mEmptyView;
+    ImageView fullbody;
+   // ImageView IVtrapsleft;
+    Drawable img1 ,trapsLeft;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        fullbody = findViewById(R.id.fullbody);
+       // IVtrapsleft=findViewById(R.id.trapsLeft);
+        img1 = getResources().getDrawable(R.drawable.fullbody2);
+        //trapsLeft = getResources().getDrawable(R.drawable.trapsleft);
 
         mToolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(mToolbar);
@@ -90,6 +99,32 @@ public class MainActivity extends AppCompatActivity {
         });
 
         mListView.setEmptyView(mEmptyView);
+        fullbody.setImageDrawable(img1);
+       // IVtrapsleft.setImageDrawable(trapsLeft);
+    }
+    public void traps(View view){
+        startActivity(new Intent(MainActivity.this, ActivityTraps.class));
+    }
+    public void pecs(View view){
+        startActivity(new Intent(MainActivity.this, ActivityChest.class));
+    }
+    public void deltoids(View view){
+        startActivity(new Intent(MainActivity.this, ActivityShoulders.class));
+    }
+    public void biceps(View view){
+        startActivity(new Intent(MainActivity.this, ActivityBiceps.class));
+    }
+    public void obliques(View view){
+        startActivity(new Intent(MainActivity.this, ActivityAbdominals.class));
+    }
+    public void forearms(View view){
+        startActivity(new Intent(MainActivity.this, ActivityForearms.class));
+    }
+    public void quads(View view){
+        startActivity(new Intent(MainActivity.this, ActivityQuads.class));
+    }
+    public void calves(View view){
+        startActivity(new Intent(MainActivity.this, ActivityCalves.class));
     }
 
     @Override
