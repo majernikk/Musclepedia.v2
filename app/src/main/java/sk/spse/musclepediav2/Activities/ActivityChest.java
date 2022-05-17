@@ -6,13 +6,12 @@ import android.os.Bundle;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
-import android.widget.Toolbar;
+import androidx.appcompat.widget.Toolbar;
 
 import sk.spse.musclepediav2.R;
 
 public class ActivityChest extends AppCompatActivity {
 
-    private Toolbar toolbar2;
     private TextView cvik1;
     private TextView popis1;
     private TextView cvik2;
@@ -24,14 +23,14 @@ public class ActivityChest extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity);
-        toolbar2 =(Toolbar)findViewById(R.id.toolbar2);
+        Toolbar toolbar2 =(Toolbar)findViewById(R.id.toolbar2);
         cvik1=(TextView)findViewById(R.id.cvik1);
         popis1=(TextView)findViewById(R.id.popis1);
         cvik2=(TextView)findViewById(R.id.cvik2);
         popis2=(TextView)findViewById(R.id.popis2);
-        //toolbar2.setTitle("Chest");
+        toolbar2.setTitle("Chest");
+        setSupportActionBar(toolbar2);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar2);
-        if (toolbar != null) {   toolbar.setTitle(R.string.app_name);   setSupportActionBar(toolbar2); }
         cvik1.setText("Barbell Bench Press");
         popis1.setText("Lay flat on the bench with your feet on the ground. With straight arms unrack the bar. Lower the bar to your mid chest. Raise the bar until you've locked your elbows.");
         cvik2.setText("Dumbbell Flys");
