@@ -35,9 +35,9 @@ public class ActivityBiceps extends AppCompatActivity {
         cvik2.setText("Dumbbell Curl");
         popis2.setText("Stand up straight with a dumbbell in each hand at arm's length. Raise one dumbbell and twist your forearm until it is vertical and your palm faces the shoulder. Lower to original position and repeat with opposite arm");
         imageView= (ImageView) findViewById(R.id.imageView);
-        imageView.setImageResource(R.drawable.chestcvik1);
+        imageView.setImageResource(R.drawable.bicepscvik1);
         imageView2= (ImageView) findViewById(R.id.imageView2);
-        imageView2.setImageResource(R.drawable.chestcvik2);
+        imageView2.setImageResource(R.drawable.bicepscvik2);
         Toast.makeText(getApplicationContext(), "We are moved to Biceps Activity",Toast.LENGTH_LONG).show();
 
     }

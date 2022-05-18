@@ -36,9 +36,9 @@ public class ActivityQuads extends AppCompatActivity {
         cvik2.setText("Squat");
         popis2.setText("Stand with your feet shoulder-width apart. Maintain the natural arch in your back, squeezing your shoulder blades and raising your chest. Grip the bar across your shoulders and support it on your upper back. Unwrack the bar by straightening your legs, and take a step back. Bend your knees as you lower the weight without altering the form of your back until your hips are below your knees. Raise the bar back to starting position, lift with your legs and exhale at the top.");
         imageView= (ImageView) findViewById(R.id.imageView);
-        imageView.setImageResource(R.drawable.chestcvik1);
+        imageView.setImageResource(R.drawable.quadscvik1);
         imageView2= (ImageView) findViewById(R.id.imageView2);
-        imageView2.setImageResource(R.drawable.chestcvik2);
+        imageView2.setImageResource(R.drawable.quadscvik2);
         Toast.makeText(getApplicationContext(), "We are moved to Quads Activity",Toast.LENGTH_LONG).show();
 
     }

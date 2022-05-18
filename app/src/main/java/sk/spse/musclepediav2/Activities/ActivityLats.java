@@ -36,9 +36,9 @@ public class ActivityLats extends AppCompatActivity {
         cvik2.setText("Pull Ups");
         popis2.setText("Grasp the bar with an overhand grip, arms and shoulders fully extended. Pull your body up until your chin is above the bar. Lower your body back to starting position.");
         imageView= (ImageView) findViewById(R.id.imageView);
-        imageView.setImageResource(R.drawable.chestcvik1);
+        imageView.setImageResource(R.drawable.latscvik1);
         imageView2= (ImageView) findViewById(R.id.imageView2);
-        imageView2.setImageResource(R.drawable.chestcvik2);
+        imageView2.setImageResource(R.drawable.latscvik2);
         Toast.makeText(getApplicationContext(), "We are moved to Lats Activity",Toast.LENGTH_LONG).show();
 
     }
