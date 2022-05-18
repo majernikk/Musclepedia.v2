@@ -36,9 +36,9 @@ public class ActivityForearms extends AppCompatActivity {
         cvik2.setText("Wrist Curl");
         popis2.setText("Stand up straight with a kettlebell in both hands in front of your pelvis, with your forearms facing outwards. Flex your wrist towards your body until the kettlebell is level with your stomach. Lower to the starting position and repeat.");
         imageView= (ImageView) findViewById(R.id.imageView);
-        imageView.setImageResource(R.drawable.chestcvik1);
+        imageView.setImageResource(R.drawable.forearmscvik1);
         imageView2= (ImageView) findViewById(R.id.imageView2);
-        imageView2.setImageResource(R.drawable.chestcvik2);
+        imageView2.setImageResource(R.drawable.forearmscvik2);
         Toast.makeText(getApplicationContext(), "We are moved to Forearms Activity",Toast.LENGTH_LONG).show();
 
     }

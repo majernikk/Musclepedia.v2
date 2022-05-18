@@ -36,9 +36,9 @@ public class ActivityAbdominals extends AppCompatActivity {
         cvik2.setText("Forearm Plank");
         popis2.setText("Place forearms on the ground with your elbows bent at a 90° angle aligned beneath your shoulders, with your arms parallel at shoulder-width. Your feet should be together, with only your toes touching the floor. Lift your belly off the floor and form a straight line from your heels to the crown of your head and hold.");
         imageView= (ImageView) findViewById(R.id.imageView);
-        imageView.setImageResource(R.drawable.chestcvik1);
+        imageView.setImageResource(R.drawable.abscvik1);
         imageView2= (ImageView) findViewById(R.id.imageView2);
-        imageView2.setImageResource(R.drawable.chestcvik2);
+        imageView2.setImageResource(R.drawable.abscvik2);
         Toast.makeText(getApplicationContext(), "We are moved to Abdominals Activity",Toast.LENGTH_LONG).show();
 
     }

@@ -36,9 +36,9 @@ public class ActivityHamstrings extends AppCompatActivity {
         cvik2.setText("Stiff Leg Deadlifts");
         popis2.setText("Stand with a barbell at your shins with your feet shoulder width apart. Bend forward at your hips and keep your knees as fully extended as possible. Grab the barbell and then extend your hips while maintaining a straight back. From the standing position, lower the weight in a controlled manner. You can either lower the weight to the floor or before you touch the floor, depending on your mobility.");
         imageView= (ImageView) findViewById(R.id.imageView);
-        imageView.setImageResource(R.drawable.chestcvik1);
+        imageView.setImageResource(R.drawable.hamcvik1);
         imageView2= (ImageView) findViewById(R.id.imageView2);
-        imageView2.setImageResource(R.drawable.chestcvik2);
+        imageView2.setImageResource(R.drawable.hamcvik2);
         Toast.makeText(getApplicationContext(), "We are moved to Hamstrings Activity",Toast.LENGTH_LONG).show();
 
     }

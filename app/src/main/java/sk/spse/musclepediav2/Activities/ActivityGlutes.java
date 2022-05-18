@@ -36,9 +36,9 @@ public class ActivityGlutes extends AppCompatActivity {
         cvik2.setText("Romanian Deadlift");
         popis2.setText("Start with a straight bar or ez bar attachment set to the bottom of the machine. Squat the weight up into a standing position and walk a few steps back Push your butt back to initiate the movement and then push your butt forward until you're back in a standing position. To protect yourself from injury, always maintain a flat back on any exercise.");
         imageView= (ImageView) findViewById(R.id.imageView);
-        imageView.setImageResource(R.drawable.chestcvik1);
+        imageView.setImageResource(R.drawable.glutescvik1);
         imageView2= (ImageView) findViewById(R.id.imageView2);
-        imageView2.setImageResource(R.drawable.chestcvik2);
+        imageView2.setImageResource(R.drawable.glutescvik2);
         Toast.makeText(getApplicationContext(), "We are moved to Glutes Activity",Toast.LENGTH_LONG).show();
 
     }

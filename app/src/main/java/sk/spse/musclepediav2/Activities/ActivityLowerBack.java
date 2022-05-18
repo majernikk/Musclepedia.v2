@@ -37,9 +37,9 @@ public class ActivityLowerBack extends AppCompatActivity {
         cvik2.setText("Deadlift");
         popis2.setText("Stand with your mid-foot under the bar and grip the bar with your hands, about a shoulder width apart. Bend your knees, then lift the bar by straightening your back. It is important to keep your back straight. Stand to your full height and hold. Lower the bar to the floor by bending your knees and keeping your back straight.");
         imageView= (ImageView) findViewById(R.id.imageView);
-        imageView.setImageResource(R.drawable.chestcvik1);
+        imageView.setImageResource(R.drawable.lowercvik1);
         imageView2= (ImageView) findViewById(R.id.imageView2);
-        imageView2.setImageResource(R.drawable.chestcvik2);
+        imageView2.setImageResource(R.drawable.lowercvik2);
         Toast.makeText(getApplicationContext(), "We are moved to Lower Back Activity",Toast.LENGTH_LONG).show();
 
     }
