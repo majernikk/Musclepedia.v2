@@ -36,9 +36,9 @@ public class ActivityTraps extends AppCompatActivity {
         cvik2.setText("Seated DB Shrugs");
         popis2.setText("Sit on a bench with dumbbells in both hands, palms facing your body, back straight. Elevate your shoulders and hold the contracted position at the apex of the motion. Slowly lower your shoulders back to starting position.");
         imageView= (ImageView) findViewById(R.id.imageView);
-        imageView.setImageResource(R.drawable.chestcvik1);
+        imageView.setImageResource(R.drawable.trapscvik1);
         imageView2= (ImageView) findViewById(R.id.imageView2);
-        imageView2.setImageResource(R.drawable.chestcvik2);
+        imageView2.setImageResource(R.drawable.trapscvik2);
         Toast.makeText(getApplicationContext(), "We are moved to Traps Activity",Toast.LENGTH_LONG).show();
 
     }

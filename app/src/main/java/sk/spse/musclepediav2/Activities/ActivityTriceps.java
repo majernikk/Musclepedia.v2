@@ -36,9 +36,9 @@ public class ActivityTriceps extends AppCompatActivity {
         cvik2.setText("Dips");
         popis2.setText("Hold your body with arms locked above the equipment Lower your body slowly while leaning forward, flare out your elbows Raise your body above the bars until your arms are locked.");
         imageView= (ImageView) findViewById(R.id.imageView);
-        imageView.setImageResource(R.drawable.chestcvik1);
+        imageView.setImageResource(R.drawable.tricepscvik1);
         imageView2= (ImageView) findViewById(R.id.imageView2);
-        imageView2.setImageResource(R.drawable.chestcvik2);
+        imageView2.setImageResource(R.drawable.tricepscvik2);
         Toast.makeText(getApplicationContext(), "We are moved to Triceps Activity",Toast.LENGTH_LONG).show();
 
     }

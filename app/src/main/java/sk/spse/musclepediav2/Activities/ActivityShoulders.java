@@ -36,9 +36,9 @@ public class ActivityShoulders extends AppCompatActivity {
         cvik2.setText("Side Lateral Raises");
         popis2.setText("Stand up straight with dumbbells at either side, palms facing your hips. Raise your arms on either side with a slight bend in your elbow until they are parallel with the floor. Pause at the top of the motion. Slowly return your arms down to starting position.");
         imageView= (ImageView) findViewById(R.id.imageView);
-        imageView.setImageResource(R.drawable.chestcvik1);
+        imageView.setImageResource(R.drawable.shoulderscvik1);
         imageView2= (ImageView) findViewById(R.id.imageView2);
-        imageView2.setImageResource(R.drawable.chestcvik2);
+        imageView2.setImageResource(R.drawable.shoulderscvik2);
         Toast.makeText(getApplicationContext(), "We are moved to Shoulders Activity",Toast.LENGTH_LONG).show();
 
     }

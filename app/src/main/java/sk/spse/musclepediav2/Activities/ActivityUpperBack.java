@@ -36,9 +36,9 @@ public class ActivityUpperBack extends AppCompatActivity {
         cvik2.setText("Seated Cable Row");
         popis2.setText("Sit with your back straight on the machine and grip the handles. Pull the handles back using your arms. Your legs and torso should be at a 90° angle. Push out your chest. Pull the handles towards your body until your hands are beside your abdomen.");
         imageView= (ImageView) findViewById(R.id.imageView);
-        imageView.setImageResource(R.drawable.chestcvik1);
+        imageView.setImageResource(R.drawable.upperbackcvik1);
         imageView2= (ImageView) findViewById(R.id.imageView2);
-        imageView2.setImageResource(R.drawable.chestcvik2);
+        imageView2.setImageResource(R.drawable.upperbackcvik2);
         Toast.makeText(getApplicationContext(), "We are moved to Upper Back Activity",Toast.LENGTH_LONG).show();
 
     }
