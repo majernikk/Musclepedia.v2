@@ -66,7 +66,6 @@ public class MainActivity extends AppCompatActivity {
                 System.out.println(adapterView.getItemAtPosition(i).toString());
                 switch (adapterView.getItemAtPosition(i).toString()) {
                     case "Abdominals":
-                        System.out.println("abs otvara");
                         startActivity(new Intent(MainActivity.this, ActivityAbdominals.class)); break;
                     case "Biceps":
                         startActivity(new Intent(MainActivity.this, ActivityBiceps.class)); break;
@@ -82,8 +81,8 @@ public class MainActivity extends AppCompatActivity {
                         startActivity(new Intent(MainActivity.this, ActivityHamstrings.class)); break;
                     case "Lats":
                         startActivity(new Intent(MainActivity.this, ActivityLats.class)); break;
-                    case "Lower back":
-                        startActivity(new Intent(MainActivity.this, ActivityLowerBack.class)); break;
+                    case "Lower Back":
+                        startActivity(new Intent(MainActivity.this, ActivityLowerBack.class));break;
                     case "Quads":
                         startActivity(new Intent(MainActivity.this, ActivityQuads.class)); break;
                     case "Shoulders":
@@ -92,7 +91,7 @@ public class MainActivity extends AppCompatActivity {
                         startActivity(new Intent(MainActivity.this, ActivityTraps.class)); break;
                     case "Triceps":
                         startActivity(new Intent(MainActivity.this, ActivityTriceps.class)); break;
-                    case "Upper back":
+                    case "Upper Back":
                         startActivity(new Intent(MainActivity.this, ActivityUpperBack.class)); break;
                 }
             }

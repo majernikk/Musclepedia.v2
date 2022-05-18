@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "647013895351",
+    "firebase_url": "https://musclepedia-63769-default-rtdb.firebaseio.com",
+    "project_id": "musclepedia-63769",
+    "storage_bucket": "musclepedia-63769.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:647013895351:android:1888290002de2463199132",
+        "android_client_info": {
+          "package_name": "sk.spse.knut.musclepedia"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "647013895351-hu31irfrlgagim3lq1cnnmhepn3vn2l3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCuPfEdlh4UMcDJ-aLnIxYjJmjacijc9QQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "647013895351-hu31irfrlgagim3lq1cnnmhepn3vn2l3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:647013895351:android:dcc57ba718ef86bb199132",
+        "android_client_info": {
+          "package_name": "sk.spse.musclepediav2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "647013895351-hu31irfrlgagim3lq1cnnmhepn3vn2l3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCuPfEdlh4UMcDJ-aLnIxYjJmjacijc9QQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "647013895351-hu31irfrlgagim3lq1cnnmhepn3vn2l3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
