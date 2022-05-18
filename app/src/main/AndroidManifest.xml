@@ -18,20 +18,21 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Activities.ActivityAbdominals" ></activity>
-        <activity android:name=".Activities.ActivityBiceps" ></activity>
-        <activity android:name=".Activities.ActivityCalves" ></activity>
-        <activity android:name=".Activities.ActivityChest" ></activity>
-        <activity android:name=".Activities.ActivityForearms" ></activity>
-        <activity android:name=".Activities.ActivityGlutes" ></activity>
-        <activity android:name=".Activities.ActivityHamstrings" ></activity>
-        <activity android:name=".Activities.ActivityLats" ></activity>
-        <activity android:name=".Activities.ActivityLowerBack" ></activity>
-        <activity android:name=".Activities.ActivityQuads" ></activity>
-        <activity android:name=".Activities.ActivityShoulders" ></activity>
-        <activity android:name=".Activities.ActivityTraps" ></activity>
-        <activity android:name=".Activities.ActivityTriceps" ></activity>
-        <activity android:name=".Activities.ActivityUpperBack" ></activity>
+        <activity android:name=".MuscleActivities.ActivityAbdominals" ></activity>
+        <activity android:name=".MuscleActivities.ActivityBiceps" ></activity>
+        <activity android:name=".MuscleActivities.ActivityCalves" ></activity>
+        <activity android:name=".MuscleActivities.ActivityChest" ></activity>
+        <activity android:name=".MuscleActivities.ActivityForearms" ></activity>
+        <activity android:name=".MuscleActivities.ActivityGlutes" ></activity>
+        <activity android:name=".MuscleActivities.ActivityHamstrings" ></activity>
+        <activity android:name=".MuscleActivities.ActivityLats" ></activity>
+        <activity android:name=".MuscleActivities.ActivityLowerBack" ></activity>
+        <activity android:name=".MuscleActivities.ActivityQuads" ></activity>
+        <activity android:name=".MuscleActivities.ActivityShoulders" ></activity>
+        <activity android:name=".MuscleActivities.ActivityTraps" ></activity>
+        <activity android:name=".MuscleActivities.ActivityTriceps" ></activity>
+        <activity android:name=".MuscleActivities.ActivityUpperBack" ></activity>
+        <activity android:name=".ZoznamActivity" ></activity>
 
         <meta-data
             android:name="preloaded_fonts"

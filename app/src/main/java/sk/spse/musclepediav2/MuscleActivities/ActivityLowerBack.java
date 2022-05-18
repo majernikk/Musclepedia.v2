@@ -1,4 +1,4 @@
-package sk.spse.musclepediav2.Activities;
+package sk.spse.musclepediav2.MuscleActivities;
 
 import android.os.Bundle;
 import android.widget.ImageView;
@@ -23,7 +23,7 @@ public class ActivityLowerBack extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity);
+        setContentView(R.layout.activity_content);
         Toolbar toolbar2 =(Toolbar)findViewById(R.id.toolbar2);
         cvik1=(TextView)findViewById(R.id.cvik1);
         popis1=(TextView)findViewById(R.id.popis1);

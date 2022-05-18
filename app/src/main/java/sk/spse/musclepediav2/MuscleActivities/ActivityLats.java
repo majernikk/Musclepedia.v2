@@ -1,4 +1,4 @@
-package sk.spse.musclepediav2.Activities;
+package sk.spse.musclepediav2.MuscleActivities;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -10,7 +10,7 @@ import androidx.appcompat.widget.Toolbar;
 
 import sk.spse.musclepediav2.R;
 
-public class ActivityForearms extends AppCompatActivity {
+public class ActivityLats extends AppCompatActivity {
 
     private TextView cvik1;
     private TextView popis1;
@@ -22,24 +22,24 @@ public class ActivityForearms extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity);
+        setContentView(R.layout.activity_content);
         Toolbar toolbar2 =(Toolbar)findViewById(R.id.toolbar2);
         cvik1=(TextView)findViewById(R.id.cvik1);
         popis1=(TextView)findViewById(R.id.popis1);
         cvik2=(TextView)findViewById(R.id.cvik2);
         popis2=(TextView)findViewById(R.id.popis2);
-        toolbar2.setTitle("Forearms");
+        toolbar2.setTitle("Lats");
         setSupportActionBar(toolbar2);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar2);
-        cvik1.setText("Barbell Wrist Curl");
-        popis1.setText("Grip the dumbbell with your palm facing upwards with your forearm rested against the bench. Slowly curl your wrist upwards in a semicircular motion. Return to starting position and repeat.");
-        cvik2.setText("Wrist Curl");
-        popis2.setText("Stand up straight with a kettlebell in both hands in front of your pelvis, with your forearms facing outwards. Flex your wrist towards your body until the kettlebell is level with your stomach. Lower to the starting position and repeat.");
+        cvik1.setText("Bent Over Barbell Row");
+        popis1.setText("Grab a barbell with a shoulder width pronated or supinated grip. Bend forward at your hips while maintaining a flat back. Pull the weight toward your upper abdomen. Lower the weight in a controlled manner and repeat.");
+        cvik2.setText("Pull Ups");
+        popis2.setText("Grasp the bar with an overhand grip, arms and shoulders fully extended. Pull your body up until your chin is above the bar. Lower your body back to starting position.");
         imageView= (ImageView) findViewById(R.id.imageView);
-        imageView.setImageResource(R.drawable.forearmscvik1);
+        imageView.setImageResource(R.drawable.latscvik1);
         imageView2= (ImageView) findViewById(R.id.imageView2);
-        imageView2.setImageResource(R.drawable.forearmscvik2);
-        Toast.makeText(getApplicationContext(), "We are moved to Forearms Activity",Toast.LENGTH_LONG).show();
+        imageView2.setImageResource(R.drawable.latscvik2);
+        Toast.makeText(getApplicationContext(), "We are moved to Lats Activity",Toast.LENGTH_LONG).show();
 
     }
 }
