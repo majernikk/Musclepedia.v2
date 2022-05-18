@@ -126,6 +126,7 @@ public class MainActivity extends AppCompatActivity {
         startActivity(new Intent(MainActivity.this, ActivityCalves.class));
     }
 
+
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         getMenuInflater().inflate(R.menu.menu_toolbar, menu);
@@ -149,5 +150,11 @@ public class MainActivity extends AppCompatActivity {
         });
 
         return super.onCreateOptionsMenu(menu);
+    }
+
+    public void lupa(View view) {
+        fullbody.setVisibility(View.GONE);
+        System.out.println("lupa");
+
     }
 }
