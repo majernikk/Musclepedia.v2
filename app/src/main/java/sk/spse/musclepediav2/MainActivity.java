@@ -125,6 +125,24 @@ public class MainActivity extends AppCompatActivity {
     public void calves(View view){
         startActivity(new Intent(MainActivity.this, ActivityCalves.class));
     }
+    public void upperBack(View view){
+        startActivity(new Intent(MainActivity.this, ActivityUpperBack.class));
+    }
+    public void triceps(View view){
+        startActivity(new Intent(MainActivity.this, ActivityTriceps.class));
+    }
+    public void lats(View view){
+        startActivity(new Intent(MainActivity.this, ActivityLats.class));
+    }
+    public void lowerBack(View view){
+        startActivity(new Intent(MainActivity.this, ActivityLowerBack.class));
+    }
+    public void glutes(View view){
+        startActivity(new Intent(MainActivity.this, ActivityGlutes.class));
+    }
+    public void hamstrings(View view){
+        startActivity(new Intent(MainActivity.this, ActivityHamstrings.class));
+    }
 
 
     @Override
