@@ -397,11 +397,17 @@
 
     <Button
         android:id="@+id/zoznam"
-        android:layout_width="wrap_content"
+        android:layout_width="220dp"
         android:layout_height="wrap_content"
+        android:layout_below="@+id/fullbody"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="134dp"
+        android:layout_marginStart="95dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="31dp"
+        android:layout_marginEnd="96dp"
+        android:layout_marginBottom="140dp"
         android:onClick="zoznamOnClick"
         android:text="Zoznam svalov"
         android:textSize="15sp"
@@ -409,6 +415,28 @@
         app:icon="@drawable/list_icon"
         app:iconGravity="start"
         app:iconPadding="5dp"
-        app:iconSize="15dp" />
+        app:iconSize="20dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/fullbody"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="109dp"
+        android:layout_marginTop="102dp"
+        android:layout_marginEnd="112dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="70dp"
+        android:onClick="calculator"
+        android:text="Kalkulačka"
+        android:textSize="15sp"
+        app:cornerRadius="25dp"
+        app:icon="@drawable/calculator_icon"
+        app:iconGravity="start"
+        app:iconPadding="5dp"
+        app:iconSize="25dp" />
 
 </RelativeLayout>

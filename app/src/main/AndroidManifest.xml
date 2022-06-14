@@ -33,7 +33,7 @@
         <activity android:name=".MuscleActivities.ActivityTriceps" ></activity>
         <activity android:name=".MuscleActivities.ActivityUpperBack" ></activity>
         <activity android:name=".ZoznamActivity" ></activity>
-
+        <activity android:name=".Calculator" ></activity>
         <meta-data
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />

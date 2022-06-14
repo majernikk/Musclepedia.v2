@@ -90,6 +90,9 @@ public class MainActivity extends AppCompatActivity {
     public void hamstrings(View view){
         startActivity(new Intent(MainActivity.this, ActivityHamstrings.class));
     }
+    public void calculator(View view){
+        startActivity(new Intent(MainActivity.this, Calculator.class));
+    }
 
     public void zoznamOnClick(View view) {
         System.out.println("zoznam clicked");
