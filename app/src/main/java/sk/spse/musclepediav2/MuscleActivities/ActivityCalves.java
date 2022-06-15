@@ -18,6 +18,8 @@ public class ActivityCalves extends AppCompatActivity {
     private TextView popis2;
     private ImageView imageView;
     private ImageView imageView2;
+    private TextView link1;
+    private TextView link2;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -28,6 +30,10 @@ public class ActivityCalves extends AppCompatActivity {
         popis1=(TextView)findViewById(R.id.popis1);
         cvik2=(TextView)findViewById(R.id.cvik2);
         popis2=(TextView)findViewById(R.id.popis2);
+        link1=(TextView)findViewById(R.id.link1);
+        link2=(TextView)findViewById(R.id.link2);
+        link1.setText("Video: https://youtu.be/ommnfVcLWxQ");
+        link2.setText("Video: https://youtu.be/xz7sqxaJ-Ck");
         toolbar2.setTitle("Calves");
         setSupportActionBar(toolbar2);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar2);

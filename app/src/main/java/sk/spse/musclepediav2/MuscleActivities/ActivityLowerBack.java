@@ -18,6 +18,8 @@ public class ActivityLowerBack extends AppCompatActivity {
     private TextView popis2;
     private ImageView imageView;
     private ImageView imageView2;
+    private TextView link1;
+    private TextView link2;
 
 
     @Override
@@ -29,6 +31,10 @@ public class ActivityLowerBack extends AppCompatActivity {
         popis1=(TextView)findViewById(R.id.popis1);
         cvik2=(TextView)findViewById(R.id.cvik2);
         popis2=(TextView)findViewById(R.id.popis2);
+        link1=(TextView)findViewById(R.id.link1);
+        link2=(TextView)findViewById(R.id.link2);
+        link1.setText("Video: https://youtu.be/IJ2Cw-qV25s");
+        link2.setText("Video: https://youtu.be/op9kVnSso6Q");
         toolbar2.setTitle("Lower Back");
         setSupportActionBar(toolbar2);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar2);

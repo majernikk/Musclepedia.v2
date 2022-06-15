@@ -45,11 +45,20 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="20dp"
                 android:layout_marginTop="20dp"
-                android:layout_marginBottom="15dp"
+                android:layout_marginBottom="10dp"
                 android:width="340dp"
                 android:text="TextView"
                 android:textSize="16sp"
                 android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/link1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:autoLink="web"
+                android:linksClickable="true"
+                android:text="TextView" />
 
             <ImageView
                 android:id="@+id/imageView"
@@ -76,10 +85,20 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="20dp"
                 android:layout_marginTop="20dp"
+                android:layout_marginBottom="10dp"
                 android:width="340dp"
                 android:text="TextView"
                 android:textSize="16sp"
                 android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/link2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:autoLink="web"
+                android:linksClickable="true"
+                android:text="TextView" />
 
             <ImageView
                 android:id="@+id/imageView2"

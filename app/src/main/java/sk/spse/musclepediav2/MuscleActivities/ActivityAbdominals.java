@@ -14,8 +14,10 @@ public class ActivityAbdominals extends AppCompatActivity {
 
     private TextView cvik1;
     private TextView popis1;
+    private TextView link1;
     private TextView cvik2;
     private TextView popis2;
+    private TextView link2;
     private ImageView imageView;
     private ImageView imageView2;
 
@@ -26,15 +28,19 @@ public class ActivityAbdominals extends AppCompatActivity {
         Toolbar toolbar2 =(Toolbar)findViewById(R.id.toolbar2);
         cvik1=(TextView)findViewById(R.id.cvik1);
         popis1=(TextView)findViewById(R.id.popis1);
+        link1=(TextView)findViewById(R.id.link1);
         cvik2=(TextView)findViewById(R.id.cvik2);
         popis2=(TextView)findViewById(R.id.popis2);
+        link2=(TextView)findViewById(R.id.link2);
         toolbar2.setTitle("Abdominals");
         setSupportActionBar(toolbar2);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar2);
         cvik1.setText("Crunches");
         popis1.setText("Lay flat on your back with your knees bent and your feet flat on the ground, about a foot from your lower back. Place your fingertips on your temples with your palms facing out. Draw your belly into the base of your spine to engage the muscles, then raise your head and shoulders off the floor. Return to starting position and repeat.");
+        link1.setText("Video: https://youtu.be/5ER5Of4MOPI");
         cvik2.setText("Forearm Plank");
         popis2.setText("Place forearms on the ground with your elbows bent at a 90° angle aligned beneath your shoulders, with your arms parallel at shoulder-width. Your feet should be together, with only your toes touching the floor. Lift your belly off the floor and form a straight line from your heels to the crown of your head and hold.");
+        link2.setText("Video: https://youtu.be/BQu26ABuVS0");
         imageView= (ImageView) findViewById(R.id.imageView);
         imageView.setImageResource(R.drawable.abscvik1);
         imageView2= (ImageView) findViewById(R.id.imageView2);
