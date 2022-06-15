@@ -5,6 +5,8 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
+import android.widget.Toast;
+
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -34,30 +36,63 @@ public class Calculator extends AppCompatActivity {
         s=findViewById(R.id.editGender);
 
 
-        calc_btn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v)
-            {
-                String gender = s.getText().toString();
-                if (gender.equalsIgnoreCase("M"))
-                {malecheck();}
-                else if (gender.equalsIgnoreCase("F"))
-                {femaleCheck();}
-                else
-                {noUse();}
-
+        calc_btn.setOnClickListener(v -> {
+            if (
+                    !(p.getText().toString().isEmpty()) &&
+                    !(q.getText().toString().isEmpty()) &&
+                    !(r.getText().toString().isEmpty()) &&
+                    !(s.getText().toString().isEmpty())
+            ){
+                decide();
             }
+            else Toast.makeText(getApplicationContext(), "Enter all values", Toast.LENGTH_SHORT).show();
         });
+    }
+    @Override
+    protected void onSaveInstanceState(Bundle outState) {
+        super.onSaveInstanceState(outState);
+        outState.putString("VEK",p.getText().toString());
+        outState.putString("VYSKA",q.getText().toString());
+        outState.putString("VAHA",r.getText().toString());
+        outState.putString("POHLAVIE",s.getText().toString());
+    }
+    @Override
+    protected void onRestoreInstanceState(@NonNull Bundle savedInstanceState) {
+        // get values from saved state
+        p.setText(savedInstanceState.getString("VEK"));
+        q.setText(savedInstanceState.getString("VYSKA"));
+        r.setText(savedInstanceState.getString("VAHA"));
+        s.setText(savedInstanceState.getString("POHLAVIE"));
+        super.onRestoreInstanceState(savedInstanceState);
+        decide();
+    }
+    private void decide(){
+        if (
+                !(p.getText().toString().isEmpty()) &&
+                !(q.getText().toString().isEmpty()) &&
+                !(r.getText().toString().isEmpty()) &&
+                !(s.getText().toString().isEmpty())
+        ){
+            String gender = s.getText().toString();
+            if (gender.equalsIgnoreCase("M")) {
+                malecheck();
+            } else if (gender.equalsIgnoreCase("F")) {
+                femaleCheck();
+            } else {
+                noUse();
+            }
+        }
     }
 
     private void noUse()
     {
-        a.setText(null);
-        b.setText(null);
-        c.setText(null);
-        d.setText(null);
-        e.setText(null);
-        f.setText(null);
+        Toast.makeText(getApplicationContext(),"Enter gender in correct form",Toast.LENGTH_SHORT).show();
+        /*a.setText("-----------------");
+        b.setText("-----------------");
+        c.setText("-----------------");
+        d.setText("-----------------");
+        e.setText("-----------------");
+        f.setText("-----------------");*/
     }
 
     private void femaleCheck() {
